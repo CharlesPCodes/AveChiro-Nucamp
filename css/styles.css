@@ -1,0 +1,75 @@
+body{
+    background-image: url("/img/checkerboard-cross.png");
+}
+.navbar {
+    background-color: #8DB580;
+}
+
+.carousel .carousel-indicators li {
+    background-color: #fff;
+    background-color: black;
+}
+
+.carousel .carousel-indicators .active {
+    background-color: white;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    height: 100px;
+    width: 100px;
+    outline: black;
+    background-size: 100%, 100%;
+    background-image: none;
+}
+
+.carousel-control-next-icon:after {
+    content: '>';
+    font-size: 55px;
+    color: red;
+}
+
+.carousel-control-prev-icon:after {
+    content: '<';
+    font-size: 55px;
+    color: red;
+}
+
+.site-footer{
+    background-image: linear-gradient(#b7a8f8, white);
+    padding: 20px 0px;
+}
+
+.card{
+    border-radius: 5px;
+    border: 2px solid #A659A2;
+}
+.card-camps {
+    min-height: 200px;
+    opacity: .9;
+}
+
+
+#card1{
+    background-image: url(/img/massage.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#card2{
+    background-image: url(/img/massage.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#card3{
+    background-image: url(/img/massage.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card-title{
+    color: white;
+}
+
+.card-text{
+    color: white;
+}
