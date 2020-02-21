@@ -3,7 +3,12 @@ body {
     background-color: #b6c36b;
     background-image: url(/img/diamond-upholstery.png);
 
-    font-family: Ubuntu;
+    font-family: Signika;
+  
+}
+
+p{
+    font-size: 1.1em;
 }
 
 .navbar {
@@ -63,29 +68,32 @@ body {
 
 
 #card1 {
-    background-image: url(/img/massage.jpg);
+    /* background-image: url(/img/massage.jpg); */
+    background-image: linear-gradient(#46B1C9, white, #b6c36b);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 #card2 {
-    background-image: url(/img/massage.jpg);
+    /* background-image: url(/img/massage.jpg); */
+    background-image: linear-gradient(#b6c36b,white, #46B1C9);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 #card3 {
-    background-image: url(/img/massage.jpg);
+    /* background-image: url(/img/massage.jpg); */
+    background-image: linear-gradient(#46B1C9, white, #b6c36b);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .card-title {
-    color: white;
+    color: black;
 }
 
 .card-text {
-    color: white;
+    color: black;
 }
 
 .scheduleHead {
@@ -98,4 +106,32 @@ body {
 
 a {
     color: black !important;
+}
+
+.map-responsive {
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+    height: 0;
+}
+
+.map-responsive iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+.two-columns {
+    -webkit-column-count: 2;
+    -moz-column-count: 2;
+    column-count: 2;
+    -webkit-column-gap: 40px;
+    column-gap: 40px;
+    -moz-column-gap: 40px;
+}
+
+.nobull {
+    list-style-type: none;
 }

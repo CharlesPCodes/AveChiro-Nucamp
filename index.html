@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Avenue Chiropractic</title>
+    <title>Avenue Chiropractic-Home</title>
 
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
@@ -14,7 +14,7 @@
 
     <link rel="stylesheet" href="css/styles.css">
     <!-- endbuild -->
-    <link href="https://fonts.googleapis.com/css?family=Lobster|Ubuntu&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lobster|Signika&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -30,8 +30,12 @@
                             About</a></li>
                     <li class="nav-item"><a class="nav-link" href="community.html"><i
                                 class="fa fa-address-card fa-lg"></i> Community</a></li>
+                    <li class="nav-item"><a role="button" class="btn btn-link"
+                        href="https://www.google.com/maps/dir//Avenue+Chiropractic+6233+Frankford+Avenue/@40.0260259,-75.0648618,15z/data=!4m8!4m7!1m0!1m5!1m1!1s0x89c6b6801f833333:0xb454c09a71466d8a!2m2!1d-75.061282!2d40.027404?hl=en"><i
+                            class="fa fa-map-signs"></i> Get Directions</a></li>
                 </ul>
             </div>
+            
         </div>
         <script src="js/greeting.js"></script>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#aveNavbar">
@@ -50,6 +54,7 @@
                         <li class="active" data-target="#homeCarousel" data-slide-to="0"></li>
                         <li data-target="#homeCarousel" data-slide-to="1"></li>
                         <li data-target="#homeCarousel" data-slide-to="2"></li>
+                        <!-- <li data-target="#homeCarousel" data-slide-to="3"></li> -->
                     </ol>
                     <div class="carousel-inner">
                         <!-- ITEM 1 -->
@@ -62,6 +67,9 @@
                         <div class="carousel-item">
                             <img src="img/sitting.jpg" alt="" class="d-block w-100">
                         </div>
+                        <!-- <div class="carousel-item">
+                            <img src="img/community.jpg" alt="" class="d-block w-100">
+                        </div> -->
                     </div>
 
                 </div>
@@ -81,21 +89,22 @@
     <div class="container">
         <br>
         <div class="row">
-            <div class="media">
+            <div class="media" style="padding-bottom: 50px;">
                 <img class="mr-3" src="img/me.jpg" alt="Dr. Anne Marie Muldoon smiling at camera">
                 <div class="media-body">
                     <p>Here at Avenue Chiropractic, we are dedicated to maintaining and restoring our patients’ over all
                         well being through holistic treatments and therapies. As a renowned and reputable local
                         business, we
                         have established working relationships with many local primary care physicians throughout the
-                        Philadelphia area. When a patient enters our office they are greeted by our accommodating and
+                        Philadelphia area.
+                        Our overall goal is to restore our patients’ health so they can optimize and enjoy their lives.</p>
+                    <p>When a patient enters our office they are greeted by our accommodating and
                         energetic staff, whose goal is to provide a warm and friendly atmosphere during treatment. Our
                         treatment plans are individualized to target the patient’s specific pain, weaknesses, and to
                         restore
                         integrity of the musculoskeletal system through chiropractic manipulation and adjunctive
-                        therapies.
-                        Our overall goal is to restore our patients’ health so they can optimize and enjoy their lives.
-                    </p>
+                        therapies.</p>
+                    <p>Dr. Muldoon, joined the Aria 3 B Orthopedic Group in 2015</p>
                 </div>
             </div>
         </div>
@@ -128,7 +137,7 @@
                             Carpal tunnel syndrome , plantar fasciitis, migraines , tendonitis, asthma, neuropathies and
                             sports related injuries</p>
                         <span class="navbar-text ml-auto">
-                            <a data-toggle="modal" data-target="#card2Modal"><i
+                            <a data-toggle="modal" data-target="#massageModal"><i
                                     class="fa fa-angle-double-right btn btn-primary">
                                     Click for more information!</i></a>
                         </span>
@@ -140,17 +149,13 @@
             <div class="col-12 col-md col-lg-4 col-xl-4" style="padding-top: 10px;">
                 <div class="card card-camps h-100" style="width: 18rem; min-height: 200px;" id="card3">
                     <div class="card-body">
-                        <h5 class="card-title">TEMP</h5>
-                        <p class="card-text">TEMPS TEMPS TEMPS</p>
+                        <h5 class="card-title">What insurance do we accept?</h5>
+                        <p class="card-text">Check below for more information</p>
                         <span class="navbar-text ml-auto">
-                            <a data-toggle="modal" data-target="#card3Modal"><i
-                                    class="fa fa-angle-double-right btn btn-primary">
-                                    Click for more information!</i></a>
+                            <a href="aboutus.html#insuranceModal"><i class="fa fa-angle-double-right btn btn-primary"> Click for more information!</i></a>
                         </span>
                     </div>
-
                 </div>
-
             </div>
         </div>
         <!-- Schedule -->
@@ -158,149 +163,143 @@
             <div class="col-sm"></div>
             <div class="col-sm-12">
                 <h2 style="font-family: Lobster; text-align: center;">Check out Our Hours </h2>
-                <div class="table-responsive">
+                <div class="table-responsive" style="padding-bottom: 50px;">
                     <table class="table table-striped">
                         <thead>
                             <tr class="text-light scheduleHead">
                                 <th> </th>
-                                <th>Sun</th>
                                 <th>Mon</th>
                                 <th>Tues</th>
                                 <th>Wed</th>
                                 <th>Thurs</th>
                                 <th>Fri</th>
-                                <th>Sat</th>
+                                <th>Sat-Sun</th>
                             </tr>
                         </thead>
                         <tbody class="trLight">
                             <tr class="trLight">
                                 <th>Open</th>
-                                <td></td>
                                 <td>9:00 AM</td>
-                                <td></td>
+                                <td>CLOSED</td>
                                 <td>9:00 AM</td>
-                                <td></td>
+                                <td>CLOSED</td>
                                 <td>9:00 AM</td>
-                                <td>9:00 AM</td>
+                                <td>CLOSED</td>
                             </tr>
                             <tr>
                                 <th>Close</th>
-                                <td></td>
                                 <td>7:00 PM</td>
                                 <td></td>
                                 <td>7:00 PM</td>
                                 <td></td>
-                                <td>7:00 PM</td>
-                                <td>12:00 PM</td>
-
+                                <td>6:00 PM</td>
+                                <td></td>
                             </tr>
                         </tbody>
                     </table>
 
                 </div>
             </div>
-            <div class="col-sm"></div>
         </div>
-        <!-- Schedule -->
+        <!-- CARDS -->
 
-
-    </div>
-    <!-- CARDS -->
-
-    <!-- MODALS -->
-    <div class="modal fade" role="dialog" id="card1Modal">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="modal-body">
-                    <div class="modal-header">
-                        <h3 class="modal-title">Card 1</h3>
-                        <button class="close" type="button" data-dismiss="modal">&times;</button>
-                    </div>
+        <!-- MODALS -->
+        <div class="modal fade" role="dialog" id="card1Modal">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
                     <div class="modal-body">
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti fuga quam ducimus.
-                            Recusandae beatae vel totam dolor accusamus pariatur atque nam, eligendi quia autem dicta
-                            exercitationem numquam ducimus magnam mollitia.</p>
+                        <div class="modal-header">
+                            <h3 class="modal-title">Card 1</h3>
+                            <button class="close" type="button" data-dismiss="modal">&times;</button>
+                        </div>
+                        <div class="modal-body">
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti fuga quam ducimus.
+                                Recusandae beatae vel totam dolor accusamus pariatur atque nam, eligendi quia autem
+                                dicta
+                                exercitationem numquam ducimus magnam mollitia.</p>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-    <div class="modal fade" role="dialog" id="card2Modal">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="modal-body">
-                    <div class="modal-header">
-                        <h3 class="modal-title">Massage Therapy</h3>
-                        <button class="close" type="button" data-dismiss="modal">&times;</button>
-                    </div>
+        <div class="modal fade" role="dialog" id="massageModal">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
                     <div class="modal-body">
-                        <ul>
-                            <li>30 minute massage - $25.00</li>
-                            <li>60 minute massage - $45.00</li>
-                            <li>90 minute massage - $65.00</li>
+                        <div class="modal-header">
+                            <h3 class="modal-title">Massage Therapy</h3>
+                            <button class="close" type="button" data-dismiss="modal">&times;</button>
+                        </div>
+                        <div class="modal-body">
+                            <ul>
+                                <li>30 minute massage - $25.00</li>
+                                <li>60 minute massage - $45.00</li>
+                                <li>90 minute massage - $65.00</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" role="dialog" id="card3Modal">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <div class="modal-header">
+                            <h3 class="modal-title">Card 3</h3>
+                            <button class="close" type="button" data-dismiss="modal">&times;</button>
+                        </div>
+                        <div class="modal-body">
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti fuga quam ducimus.
+                                Recusandae beatae vel totam dolor accusamus pariatur atque nam, eligendi quia autem
+                                dicta
+                                exercitationem numquam ducimus magnam mollitia.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- MODALS -->
+
+
+        <!-- FOOTER -->
+        <footer class="site-footer">
+            <div class="container">
+                <div class="row">
+                    <!-- <div class="col-4 col-sm-4 offset-1">
+                        <h5>Links</h5>
+                        <ul class="list-unstyled">
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="aboutus.html">About</a></li>
+                            <li><a href="#">Sites</a></li>
+                            <li><a href="contactus.html">Contact</a></li>
                         </ul>
+                    </div> -->
+                    <div class="col-sm-4">
+                        <a role="button" class="btn btn-link" href="tel:+12065551234"><i class="fa fa-phone"></i>
+                            1-215-338-4132</a>
+                        <br>
+                        <a role="button" class="btn btn-link" href="mailto:campsites@nucamp.co"><i
+                                class="fa fa-envelope-o"></i> </a>
+                                
+                                <a class="btn btn-social-icon btn-facebook" href="https://www.facebook.com/AVENUE-CHIROPRACTIC-307051134868/"><i
+                                    class="fa fa-facebook"></i></a>
                     </div>
+                    <div class="col-sm-4">
+                        <a role="button" class="btn btn-link"
+                            href="https://www.google.com/maps/dir//Avenue+Chiropractic+6233+Frankford+Avenue/@40.0260259,-75.0648618,15z/data=!4m8!4m7!1m0!1m5!1m1!1s0x89c6b6801f833333:0xb454c09a71466d8a!2m2!1d-75.061282!2d40.027404?hl=en"><i
+                                class="fa fa-map-signs"></i> Click here to Get Directions</a>
+                        <p>6233 Frankford Avenue, Philadelphia PA, 19135</p>
+                        
+                    </div>
+                    <div class="col-sm-4">
                 </div>
             </div>
-        </div>
-    </div>
-    <div class="modal fade" role="dialog" id="card3Modal">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="modal-body">
-                    <div class="modal-header">
-                        <h3 class="modal-title">Card 3</h3>
-                        <button class="close" type="button" data-dismiss="modal">&times;</button>
-                    </div>
-                    <div class="modal-body">
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti fuga quam ducimus.
-                            Recusandae beatae vel totam dolor accusamus pariatur atque nam, eligendi quia autem dicta
-                            exercitationem numquam ducimus magnam mollitia.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- MODALS -->
-
-
-    <!-- FOOTER -->
-    <footer class="site-footer">
-        <div class="container">
-            <div class="row">
-                <div class="col-4 col-sm-2 offset-1">
-                    <h5>Links</h5>
-                    <ul class="list-unstyled">
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="aboutus.html">About</a></li>
-                        <li><a href="#">Sites</a></li>
-                        <li><a href="contactus.html">Contact</a></li>
-                    </ul>
-                </div>
-                <div class="col-6 col-sm-5 text-center">
-                    <!-- <h5>Social</h5>
-                    <a class="btn btn-social-icon btn-instagram" href="http://instagram.com/"><i
-                            class="fa fa-instagram"></i></a>
-                    <a class="btn btn-social-icon btn-facebook" href="http://facebook.com/"><i
-                            class="fa fa-facebook"></i></a>
-                    <a class="btn btn-social-icon btn-twitter" href="http://twitter.com/"><i
-                            class="fa fa-twitter"></i></a>
-                    <a class="btn btn-social-icon btn-google" href="http://youtube.com/"><i
-                            class="fa fa-youtube"></i></a> -->
-                </div>
-                <div class="col-sm-4 text-center">
-                    <a role="button" class="btn btn-link" href="tel:+12065551234"><i class="fa fa-phone"></i>
-                        1-111-111-111</a><br />
-                    <a role="button" class="btn btn-link" href="mailto:contact@temp.com"><i
-                            class="fa fa-envelope-o"></i> contact@temp.com</a>
-                </div>
-            </div>
-        </div>
-    </footer>
-    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
-    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
-    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+        </footer>
+        <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+        <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+        <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 </body>
 
 </html>
