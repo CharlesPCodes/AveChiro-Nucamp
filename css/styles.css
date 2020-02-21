@@ -1,8 +1,19 @@
-body{
-    background-image: url("/img/checkerboard-cross.png");
+body {
+    /* background-image: url("/img/checkerboard-cross.png"); */
+    background-color: #b6c36b;
+    background-image: url(/img/diamond-upholstery.png);
+
+    font-family: Ubuntu;
 }
+
 .navbar {
-    background-color: #8DB580;
+    /* background-color: #8DB580; */
+    background-color: #B6E5C5;
+
+}
+
+.navbar-nav .nav-link {
+    color: black !important;
 }
 
 .carousel .carousel-indicators li {
@@ -35,41 +46,56 @@ body{
     color: red;
 }
 
-.site-footer{
-    background-image: linear-gradient(#b7a8f8, white);
+.site-footer {
+    background-image: linear-gradient(#46B1C9, white);
     padding: 20px 0px;
 }
 
-.card{
+.card {
     border-radius: 5px;
     border: 2px solid #A659A2;
 }
+
 .card-camps {
     min-height: 200px;
     opacity: .9;
 }
 
 
-#card1{
-    background-image: url(/img/massage.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-#card2{
-    background-image: url(/img/massage.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-#card3{
+#card1 {
     background-image: url(/img/massage.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-.card-title{
+#card2 {
+    background-image: url(/img/massage.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#card3 {
+    background-image: url(/img/massage.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card-title {
     color: white;
 }
 
-.card-text{
+.card-text {
     color: white;
+}
+
+.scheduleHead {
+    background-color: #46B1C9;
+}
+
+.trLight {
+    background-image: linear-gradient(#C9ECD4, #46B1C9);
+}
+
+a {
+    color: black !important;
 }

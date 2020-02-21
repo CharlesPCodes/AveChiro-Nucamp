@@ -14,14 +14,14 @@
 
     <link rel="stylesheet" href="css/styles.css">
     <!-- endbuild -->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster|Open+Sans">
+    <link href="https://fonts.googleapis.com/css?family=Lobster|Ubuntu&display=swap" rel="stylesheet">
 </head>
 
 <body>
     <!-- NAV BAR -->
     <nav class="navbar navbar-expand-sm navbar-dark sticky-top">
         <div class="container">
-            <a href="#" class="navbar-brand"><img src="img/sitting.jpg" height="30" width="30"></a>
+            <a href="#" class="navbar-brand"><img src="img/sitting.jpg" height="50" width="50"></a>
             <div class="collapse navbar-collapse" id="aveNavbar">
                 <ul class="navbar-nav">
                     <li class="nav-item active"><a class="nav-link" href="#"><i class="fa fa-home fa-lg"></i> Home</a>
@@ -29,10 +29,11 @@
                     <li class="nav-item"><a class="nav-link" href="aboutus.html"><i class="fa fa-info fa-lg"></i>
                             About</a></li>
                     <li class="nav-item"><a class="nav-link" href="community.html"><i
-                                class="fa fa-address-card fa-lg"></i> Contact</a></li>
+                                class="fa fa-address-card fa-lg"></i> Community</a></li>
                 </ul>
             </div>
         </div>
+        <script src="js/greeting.js"></script>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#aveNavbar">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -80,19 +81,27 @@
     <div class="container">
         <br>
         <div class="row">
-            <div class="col-sm-4">
-                <img src="img/me.jpg" alt="">
+            <div class="media">
+                <img class="mr-3" src="img/me.jpg" alt="Dr. Anne Marie Muldoon smiling at camera">
+                <div class="media-body">
+                    <p>Here at Avenue Chiropractic, we are dedicated to maintaining and restoring our patients’ over all
+                        well being through holistic treatments and therapies. As a renowned and reputable local
+                        business, we
+                        have established working relationships with many local primary care physicians throughout the
+                        Philadelphia area. When a patient enters our office they are greeted by our accommodating and
+                        energetic staff, whose goal is to provide a warm and friendly atmosphere during treatment. Our
+                        treatment plans are individualized to target the patient’s specific pain, weaknesses, and to
+                        restore
+                        integrity of the musculoskeletal system through chiropractic manipulation and adjunctive
+                        therapies.
+                        Our overall goal is to restore our patients’ health so they can optimize and enjoy their lives.
+                    </p>
+                </div>
             </div>
-            <div class="col-md-8">
-                <p>Here at Avenue Chiropractic, we are dedicated to maintaining and restoring our patients’ over all
-                    well being through holistic treatments and therapies. As a renowned and reputable local business, we
-                    have established working relationships with many local primary care physicians throughout the
-                    Philadelphia area. When a patient enters our office they are greeted by our accommodating and
-                    energetic staff, whose goal is to provide a warm and friendly atmosphere during treatment. Our
-                    treatment plans are individualized to target the patient’s specific pain, weaknesses, and to restore
-                    integrity of the musculoskeletal system through chiropractic manipulation and adjunctive therapies.
-                    Our overall goal is to restore our patients’ health so they can optimize and enjoy their lives.</p>
-            </div>
+        </div>
+
+        <div class="col">
+            <h2 style="font-family: Lobster;  ">Our Services at a Glance</h2>
         </div>
         <!--TODO:-FIX MD CARDS TO LOOK BETTER -->
         <div class="row">
@@ -114,8 +123,10 @@
             <div class="col-12 col-md col-lg-4 col-xl-4" style="padding-top: 10px;">
                 <div class="card card-camps h-100" style="width: 18rem; min-height: 200px;" id="card2">
                     <div class="card-body">
-                        <h5 class="card-title">TEMP</h5>
-                        <p class="card-text">TEMPS TEMPS TEMPS</p>
+                        <h5 class="card-title">Massage Therapy</h5>
+                        <p class="card-text">Chiropractic care can relieve :
+                            Carpal tunnel syndrome , plantar fasciitis, migraines , tendonitis, asthma, neuropathies and
+                            sports related injuries</p>
                         <span class="navbar-text ml-auto">
                             <a data-toggle="modal" data-target="#card2Modal"><i
                                     class="fa fa-angle-double-right btn btn-primary">
@@ -150,7 +161,7 @@
                 <div class="table-responsive">
                     <table class="table table-striped">
                         <thead>
-                            <tr class="bg-primary text-light">
+                            <tr class="text-light scheduleHead">
                                 <th> </th>
                                 <th>Sun</th>
                                 <th>Mon</th>
@@ -161,8 +172,8 @@
                                 <th>Sat</th>
                             </tr>
                         </thead>
-                        <tbody class="table-primary">
-                            <tr>
+                        <tbody class="trLight">
+                            <tr class="trLight">
                                 <th>Open</th>
                                 <td></td>
                                 <td>9:00 AM</td>
@@ -219,13 +230,15 @@
             <div class="modal-content">
                 <div class="modal-body">
                     <div class="modal-header">
-                        <h3 class="modal-title">Card 2</h3>
+                        <h3 class="modal-title">Massage Therapy</h3>
                         <button class="close" type="button" data-dismiss="modal">&times;</button>
                     </div>
                     <div class="modal-body">
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti fuga quam ducimus.
-                            Recusandae beatae vel totam dolor accusamus pariatur atque nam, eligendi quia autem dicta
-                            exercitationem numquam ducimus magnam mollitia.</p>
+                        <ul>
+                            <li>30 minute massage - $25.00</li>
+                            <li>60 minute massage - $45.00</li>
+                            <li>90 minute massage - $65.00</li>
+                        </ul>
                     </div>
                 </div>
             </div>
