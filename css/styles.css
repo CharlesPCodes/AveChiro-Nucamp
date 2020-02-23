@@ -2,12 +2,12 @@ body {
     /* background-image: url("/img/checkerboard-cross.png"); */
     background-color: teal;
     background-image: url(/img/diamond-upholstery.png);
-    
+
     font-family: Signika;
     /* font-family: 'Courier New', Courier, monospace; */
 }
 
-p{
+p {
     font-size: 1.1em;
 }
 
@@ -76,7 +76,7 @@ p{
 
 #card2 {
     /* background-image: url(/img/massage.jpg); */
-    background-image: linear-gradient(#b6c36b,white, #46B1C9);
+    background-image: linear-gradient(#b6c36b, white, #46B1C9);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -105,7 +105,8 @@ p{
     /* background-color: teal; */
     background-image: url(/img/diamond-upholstery.png);
 }
-td{
+
+td {
     color: white;
 }
 
@@ -124,4 +125,9 @@ a {
 
 .nobull {
     list-style-type: none;
+}
+
+#card1Modal .modal-header {
+    background-color: #901CAD;
+    color: white;
 }
