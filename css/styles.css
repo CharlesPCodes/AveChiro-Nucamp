@@ -1,7 +1,8 @@
 body {
     /* background-image: url("/img/checkerboard-cross.png"); */
-    background-color: teal;
-    background-image: url(/img/diamond-upholstery.png);
+    background-image: url(/img/background-tile.png);
+    /* background-color: teal; */
+    /* background-image: url(/img/diamond-upholstery.png); */
 
     font-family: Signika;
     /* font-family: 'Courier New', Courier, monospace; */
@@ -52,7 +53,7 @@ p {
 }
 
 .site-footer {
-    background-color: white;
+    background-color: #b6e5c5;
     padding: 20px 0px;
 }
 
@@ -96,6 +97,10 @@ p {
     color: black;
 }
 
+.carousel .overview {
+    font-style: italic;
+}
+
 .scheduleHead {
     background-color: #46B1C9;
 }
@@ -127,7 +132,126 @@ a {
     list-style-type: none;
 }
 
-#card1Modal .modal-header {
-    background-color: #901CAD;
-    color: white;
+#communityModal .modal-header {
+    background-color: #b6e5c5;
+    color: black;
+}
+
+#massageModal .modal-header {
+    background-color: #b6e5c5;
+    color: black;
+}
+
+#contactModal .modal-header {
+    background-color: #b6e5c5;
+    color: black;
+}
+
+
+
+div.reviews {
+    background-color: #ffffff;
+    border: 1px solid black;
+    opacity: 0.6;
+    filter: alpha(opacity=60);
+    /* For IE8 and earlier */
+}
+
+div.reviews p {
+    margin: 5%;
+    font-weight: bold;
+    /* font-family: Verdana; */
+    /* font-size: 12px; */
+    color: black;
+}
+
+.checked {
+    color: blue;
+}
+
+.info-main {
+    background-color: #ffffff;
+    opacity: 0.5;
+    filter: alpha(opacity=60);
+}
+
+.info-main p {
+    font-weight: bold;
+    color: black;
+}
+
+.aboutImg {
+    opacity: 1 !important;
+}
+
+div.testback {
+    background-color: #0de0bd;
+    /* border: 1px solid black; */
+    opacity: 0.8;
+    filter: alpha(opacity=60);
+    /* For IE8 and earlier */
+}
+
+div.testback p{
+    /* margin: 5%; */
+    font-weight: bold;
+    /* font-family: Verdana; */
+    /* font-size: 12px; */
+    color: black;
+}
+
+
+hr.star-light,
+hr.star-dark {
+    max-width: 15rem;
+    padding: 0;
+    text-align: center;
+    border: none;
+    border-top: solid 0.25rem;
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+hr.star-light:after,
+hr.star-dark:after {
+    position: relative;
+    top: -.8em;
+    display: inline-block;
+    padding: 0 0.25em;
+    /* content: '\f005'; */
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    font-size: 2em;
+}
+
+hr.star-light {
+    border-color: #fff;
+}
+
+hr.star-light:after {
+    color: #fff;
+    background-color: #18BC9C;
+}
+
+hr.star-dark {
+    border-color: #2C3E50;
+}
+
+hr.star-dark:after {
+    color: #2C3E50;
+    background-color: white;
+}
+
+.mainBody{
+    background-color: #ffffff;
+    border: 1px solid black;
+    opacity: 0.8;
+    filter: alpha(opacity=60);
+    font-weight: bold;
+    /* font-family: Verdana; */
+    /* font-size: 12px; */
+    color: black;
+    /* For IE8 and earlier */
 }
