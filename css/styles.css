@@ -255,3 +255,7 @@ hr.star-dark:after {
     color: black;
     /* For IE8 and earlier */
 }
+
+#contactDiv{
+    opacity: 0.9 !important;
+}
