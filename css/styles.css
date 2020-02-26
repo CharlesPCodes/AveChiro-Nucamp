@@ -112,7 +112,7 @@ p {
 }
 
 td {
-    color: white;
+    color: black;
 }
 
 a {
@@ -192,7 +192,7 @@ div.testback {
     /* For IE8 and earlier */
 }
 
-div.testback p{
+div.testback p {
     /* margin: 5%; */
     font-weight: bold;
     /* font-family: Verdana; */
@@ -244,7 +244,7 @@ hr.star-dark:after {
     background-color: white;
 }
 
-.mainBody{
+.mainBody {
     background-color: #ffffff;
     border: 1px solid black;
     opacity: 0.8;
@@ -256,6 +256,7 @@ hr.star-dark:after {
     /* For IE8 and earlier */
 }
 
-#contactDiv{
+#contactDiv {
     opacity: 0.9 !important;
 }
+
