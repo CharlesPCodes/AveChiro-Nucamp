@@ -1,8 +1,8 @@
 body {
     /* background-image: url("/img/checkerboard-cross.png"); */
-    background-image: url(/img/background-tile.png);
+    /* background-image: url(/img/background-tile.png); */
     /* background-color: teal; */
-    /* background-image: url(/img/diamond-upholstery.png); */
+    background-image: url(/img/diamond-upholstery.png);
 
     font-family: Signika;
     /* font-family: 'Courier New', Courier, monospace; */
@@ -163,14 +163,14 @@ a {
 div.reviews {
     background-color: #ffffff;
     border: 1px solid black;
-    opacity: 0.6;
-    filter: alpha(opacity=60);
+    /* opacity: 0.6; */
+    /* filter: alpha(opacity=60); */
     /* For IE8 and earlier */
 }
 
 div.reviews p {
     margin: 5%;
-    font-weight: bold;
+    font-weight: bolder;
     /* font-family: Verdana; */
     /* font-size: 12px; */
     color: black;
@@ -238,11 +238,11 @@ hr.star-dark:after {
 }
 
 hr.star-light {
-    border-color: #fff;
+    border-color: #46B1C9;
 }
 
 hr.star-light:after {
-    color: #fff;
+    color: #46B1C9;
     background-color: #18BC9C;
 }
 
@@ -255,16 +255,13 @@ hr.star-dark:after {
     background-color: white;
 }
 
-.mainBody {
+/* .mainBody {
     background-color: #ffffff;
     border: 1px solid black;
     opacity: 0.8;
     filter: alpha(opacity=60);
     font-weight: bold;
-    /* font-family: Verdana; */
-    /* font-size: 12px; */
     color: black;
-    /* For IE8 and earlier */
 }
 
 
@@ -274,11 +271,10 @@ hr.star-dark:after {
     opacity: 0.9;
     filter: alpha(opacity=60);
     font-weight: bold;
-    /* font-family: Verdana; */
-    /* font-size: 12px; */
+
     color: black;
-    /* For IE8 and earlier */
-}
+
+} */
 
 #contactDiv {
     opacity: 0.9 !important;
