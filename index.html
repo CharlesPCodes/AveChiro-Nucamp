@@ -64,8 +64,6 @@
                     </li>
                     <li class="nav-item"><a class="nav-link" href="aboutus.html"><i class="fa fa-info fa-lg"></i>
                             About</a></li>
-                    <li class="nav-item"><a class="nav-link" href="community.html"><i class="fa fa-child fa-lg"></i>
-                            Community</a></li>
                     <li class="nav-item"><a class="nav-link" href="contact.html"><i
                                 class="fa fa-address-card fa-lg"></i> Contact Us!</a></li>
                     <li class="nav-item"><a role="button" class="btn btn-link"
@@ -121,54 +119,44 @@
             <div class="col">
                 <h2 style="font-family: Lobster;  ">Our Services at a Glance</h2>
             </div>
-            <!--TODO:-FIX MD CARDS TO LOOK BETTER -->
-            <div class="row">
-                <div class="col-12 col-md col-lg-4 col-xl-4" style="padding-top: 10px;">
-                    <div class="card card-camps h-100" style="width: 18rem; min-height: 200px;" id="card1"
-                        onclick="myCommunity()">
-                        <div class="card-body">
-                            <h5 class="card-title">Community Work</h5>
-                            <p class="card-text">Here at Avenue Chiropractic we love to give back to the community.</p>
-                            <span class="navbar-text ml-auto">
-                                <a id="communityButton"><i class="fa fa-angle-double-right btn btn-primary">
-                                        Click for more information!</i></a>
-                            </span>
+            <!-- SERVICES TAB -->
+            <div class="row row-content">
+                <div class="col-sm-12 mainBody">
+                    <ul class="nav nav-tabs" style="background-color: teal;">
+                        <li class="nav-item" ><a class="nav-link active" href="#communityTab" role="tab"
+                                data-toggle="tab">Community</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#massageTab" role="tab" data-toggle="tab">Massage Therapy</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#insuranceTab" role="tab" data-toggle="tab">Insurance</a></li>
+                    </ul>
+                    <div class="tab-content">
+                        <div role="tabpanel" class="tab-pane fade show active" id="communityTab">
+                            <!-- <h4>Community Resources</h4> -->
+                            <p class="d-none d-sm-block" style="text-align: center;">Here at Avenue Chiropractic we love to give back to the community</p>
+                            <p>Most recently we had the honor of supporting the United States Corps Reserve Toys For Tots collection where we were humbly recognized. </p>
+                            <img src="img/toysfortots.jpg" alt="" width="250px" class="img-fluid mb-5 d-block mx-auto">
                         </div>
-
-                    </div>
-
-                </div>
-                <div class="col-12 col-md col-lg-4 col-xl-4" style="padding-top: 10px;">
-                    <div class="card card-camps h-100" style="width: 18rem; min-height: 200px;" id="card2">
-                        <div class="card-body">
-                            <h5 class="card-title">Massage Therapy</h5>
-                            <p class="card-text">Chiropractic care can relieve :
-                                Carpal tunnel syndrome , plantar fasciitis, migraines , tendonitis, asthma, neuropathies
-                                and
-                                sports related injuries</p>
-                            <span class="navbar-text ml-auto">
-                                <a id="massageButton"><i class="fa fa-angle-double-right btn btn-primary">
-                                        Click for more information!</i></a>
-                            </span>
+                        <div role="tabpanel" class="tab-pane fade show" id="massageTab">
+                            <p style="text-align: center;">Below you can find our prices for our personal massage sessions.</p>
+                            <ul style="text-align: center;" class="nobull"> 
+                                <li>30 minute massage - $25.00</li>
+                                <li>60 minute massage - $45.00</li>
+                                <li>90 minute massage - $65.00</li>
+                            </ul>
                         </div>
-
-                    </div>
-
-                </div>
-                <div class="col-12 col-md col-lg-4 col-xl-4" style="padding-top: 10px;">
-                    <div class="card card-camps h-100" style="width: 18rem; min-height: 200px;" id="card3">
-                        <div class="card-body">
-                            <h5 class="card-title">What insurance do we accept?</h5>
-                            <p class="card-text">Check below for more information</p>
-                            <span class="navbar-text ml-auto">
-                                <a href="aboutus.html#insuranceModal"><i
-                                        class="fa fa-angle-double-right btn btn-primary">
-                                        Click for more information!</i></a>
-                            </span>
+                        <div role="tabpanel" class="tab-pane fade" id="insuranceTab">
+                            <p style="text-align: center;" id="textLink">Not sure if you we accept your insurance? Click <a href="aboutus.html#insuranceModal" >HERE</a> a complete list of all accepted insurances.</p>
+                            <br>
+                            <ul class="two-columns">
+                                <li>Medicare</li>
+                                <li>Aetna</li>
+                                <li>Cigna</li>               
+                                <li>Amerihealth</li>
+                            </ul>
                         </div>
                     </div>
                 </div>
             </div>
+            <!--  -->
 
 
             <!-- Schedule -->
@@ -275,10 +263,11 @@
                         </div>
                         <div class="modal-body">
                             <div class="modal-body">
-                                <p>Throughout the year we tend to have multiple opportunites to give back!
+                                <p>Throughout the year we tend to have multiple opportunities to give back!
                                 </p>
-                                <a href="community.html" class="btn btn-primary btn-lg">Click here to get more
-                                    information</a>
+                                <br>
+                                <p>Most recently we had the honor of supporting the United States Corps Reserve Toys For Tots collection where we were humbly recognized. </p>
+                                <img src="img/toysfortots.jpg" alt="" width="422px">
                             </div>
                         </div>
                     </div>
@@ -288,7 +277,7 @@
                 <div class="modal-dialog" role="document">
                     <div class="modal-content">
                         <div class="modal-header">
-                            <h3 class="modal-title">Community</h3>
+                            <h3 class="modal-title">Massage Therapy</h3>
                             <button class="close" type="button" data-dismiss="modal">&times;</button>
                         </div>
                         <div class="modal-body">
@@ -385,12 +374,12 @@
             <footer class="site-footer">
                 <div class="container">
                     <div class="row">
-                        <div class="col-sm-4">
+                        <div class="col-sm-4" style="padding-left: 20px;">
                             <a role="button" class="btn btn-link" href="tel:+12065551234"><i class="fa fa-phone"></i>
                                 1-215-338-4132</a>
                             <br>
                             <a role="button" class="btn btn-link" href="mailto:campsites@nucamp.co"><i
-                                    class="fa fa-envelope-o"></i> </a>
+                                    class="fa fa-envelope-o "></i> </a>
 
                             <a class="btn btn-social-icon btn-facebook"
                                 href="https://www.facebook.com/AVENUE-CHIROPRACTIC-307051134868/"><i

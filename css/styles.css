@@ -11,6 +11,9 @@ body {
 p {
     font-size: 1.1em;
 }
+#textLink a:link {
+    color: red !important;
+}
 
 .navbar {
     /* background-color: #8DB580; */
@@ -21,6 +24,14 @@ p {
 .navbar-nav .nav-link {
     color: black !important;
 }
+.nav li {
+    display:inline;
+}
+.nav a {
+    display:inline-block;
+    padding:10px;
+}
+
 
 .carousel .carousel-indicators li {
     background-color: #fff;
@@ -256,7 +267,19 @@ hr.star-dark:after {
     /* For IE8 and earlier */
 }
 
+
+.mainSolid {
+    background-color: #ffffff;
+    border: 1px solid black;
+    opacity: 0.9;
+    filter: alpha(opacity=60);
+    font-weight: bold;
+    /* font-family: Verdana; */
+    /* font-size: 12px; */
+    color: black;
+    /* For IE8 and earlier */
+}
+
 #contactDiv {
     opacity: 0.9 !important;
 }
-
